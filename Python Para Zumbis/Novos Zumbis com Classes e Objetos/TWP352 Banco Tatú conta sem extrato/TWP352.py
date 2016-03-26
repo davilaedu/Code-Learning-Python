@@ -17,6 +17,7 @@ class Conta:
     def saque(self, valor):
         if self.saldo >= valor:
             self.saldo -= valor
+            #
 
     def deposito(self, valor):
         self.saldo += valor
