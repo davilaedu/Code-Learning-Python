@@ -12,6 +12,7 @@ class Conta:
 
     def resumo(self):
         print "CC Numero: %s Saldo: %10.2f" % (self.numero, self.saldo)
+        return self.clientes
 
     def saque(self, valor):
         if self.saldo >= valor:
