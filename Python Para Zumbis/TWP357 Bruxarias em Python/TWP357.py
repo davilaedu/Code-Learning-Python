@@ -9,6 +9,7 @@ class int42(int):
         return '42'
 
 
+# X
 a = int42(7)
 
 b = int42(13)
