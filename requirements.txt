@@ -1,1 +1,3 @@
-sudo pip install virtualenv
+ sudo easy_install virtualenv
+ mkdir virt_env
+ virtualenv virt_env/virt1
