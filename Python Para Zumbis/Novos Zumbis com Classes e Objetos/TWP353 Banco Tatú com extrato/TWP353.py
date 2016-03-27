@@ -15,7 +15,7 @@ class Conta():
             self.operacoes.append(['Saque', valor])
 
     def deposito(self, valor):
-        self.saldo += valor
+        self.saldo = self.saldo + valor
         self.operacoes.append(['Deposito', valor])
 
     def extrato(self):
