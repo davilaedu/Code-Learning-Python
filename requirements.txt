@@ -1,6 +1,0 @@
-pip install -U distribute
-virtualenv -p /usr/bin/python2.7 --system-site-packages env
-install.1
-sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu/ trusty main universe"
-sudo apt-get install software-properties-common
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
