@@ -1,3 +1,1 @@
- sudo easy_install virtualenv
- mkdir virt_env
- virtualenv virt_env/virt1
+virtualenv -p /usr/bin/python2.7 --system-site-packages env
