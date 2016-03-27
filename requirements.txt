@@ -1,1 +1,3 @@
+pip install -U distribute
 virtualenv -p /usr/bin/python2.7 --system-site-packages env
+pip install -U distribute
