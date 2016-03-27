@@ -9,6 +9,6 @@ print conta11.clientes
 conta11.deposito(500)
 conta11.deposito(300)
 conta11.deposito(95)
-conta11.saque(250)
+conta11.saque(10000)
 
 print conta11.extrato()
